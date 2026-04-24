@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - GameGames</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="fundologin">
+<header class="topo">
+    <div class="topoesquerda">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Game.png" alt="Logo GameGames">
+            </a>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html">Categorias</a>
+            <a href="starwars.html">Star Wars</a>
+            <a href="colecionadores.html">Colecionadores</a>
+            <a href="novidades.html">Novidades</a>
+        </nav>
+    </div>
+
+    <div class="topodireita">
+        <div class="buscar glasscard">
+            <input type="text" placeholder="Pesquisar">
+            <img src="lupa-arredondada.png" alt="Buscar">
+        </div>
+
+        <div class="icones">
+            <div class="icone">
+                <a href="contato.html">
+                    <img src="conversando.png" alt="Mensagens">
+                </a>
+            </div>
+            <div class="icone">
+                <img src="caminhao-de-entrega.png" alt="Entrega" class="iconecaminhao">
+            </div>
+            <div class="icone">
+                <a href="login.html">
+                    <img src="perfil.png">
+                </a>
+            </div>
+            <div class="icone">
+                <img src="carrinho-carrinho.png" alt="Carrinho">
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+
+    <div class="centro">
+        <!--        caixa e o estilo da caixa no html-->
+        <div class="caixa glasscard">
+            <h1 class="titulo">Login</h1>
+
+            <form action="index.html"> <!--submit-->
+
+                <div class="campo">
+                    <label>Email</label>
+                    <div class="entrada">
+                        <input type="email" id="email-login" name="email" placeholder="Email">
+                        <img src="o-email.png" alt="Icone email" class="iconescadastro">
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label>Senha</label>
+                    <div class="entrada">
+                        <input type="password" id="senha-login" name="senha" placeholder="Senha">
+                        <img src="cadeado-trancado%20(1).png" alt="Icone senha" class="iconescadastro">
+                    </div>
+                </div>
+
+                <div class="baixocampo">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="botao">Entrar</button>
+            </form>
+
+            <p class="textofinal">
+                Nao tem uma conta?
+                <a href="cadastro.html">Crie uma</a>
+            </p>
+        </div>
+    </div>
+</main>
+</body>
+
+</html>
+
+
